@@ -14,6 +14,19 @@
 
 *These git hooks are implemented via husky and lint-staged.*
 
+### Commit Type Overview
+
+- `feat:` For changes that add a new feature.
+- `fix:` For changes that fix a bug.
+- `refactor:` For changes that neither fixes a bug or adds a feature.
+- `docs:` For changes to documentation only.
+- `style:` For changes that do not affect the meaning of the code (white space, formatting, missing semi-colons, etc).
+- `perf:` For changes that improve performance.
+- `test:` For changes that affect automated testing.
+- `chore:` For changes to the build process, config files, tools, and dependencies.
+
+See [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) documentation for more details.
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
