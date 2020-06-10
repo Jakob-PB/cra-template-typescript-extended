@@ -1,71 +1,33 @@
 {
-  "name": "react-app-template-ts",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.47",
-    "@types/react": "^16.9.36",
-    "@types/react-dom": "^16.9.8",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "typescript": "^3.9.5"
+  "name": "cra-template-typescript-extended",
+  "version": "1.1.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "ESLint",
+    "Prettier",
+    "stylelint",
+    "commitlint",
+    "husky",
+    "lint-staged"
+  ],
+  "description": "An extended version of the TypeScript template for Create React App that adds useful dev tools and config tweaks.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jakob-PB/cra-template-typescript-extended.git"
   },
-  "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/parser": "^2.34.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^2.5.1",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.6",
-    "prettier": "2.0.5",
-    "stylelint": "^13.5.0",
-    "stylelint-config-standard": "^20.0.0"
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "bugs": {
+    "url": "https://github.com/Jakob-PB/cra-template-typescript-extended/issues"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && tsc --noEmit && npm run test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "lint-staged": {
-    "public/**/*.{html}": [
-      "prettier --write"
-    ],
-    "src/**/*.{json,md}": [
-      "prettier --write"
-    ],
-    "src/**/*.{css,scss,sass}": [
-      "stylelint"
-    ],
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --max-warnings=0"
-    ]
-  }
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "main": "template.json"
 }
