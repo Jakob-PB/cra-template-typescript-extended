@@ -1,3 +1,21 @@
+## Tools Added to the Template
+
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
+- [stylelint](https://stylelint.io/)
+- [commitlint](https://commitlint.js.org/#/)
+- [husky](https://github.com/typicode/husky)
+- [lint-staged](https://github.com/okonet/lint-staged)
+
+### Git Hooks
+
+- **Pre-Commit**: Uses Prettier for formatting, `tsc --noEmit`, ESLint, and stylelint for linting, and runs tests via `npm run test`.
+- **Commit-Msg**: Runs commitlint on the commit message.
+
+*These git hooks are implemented via husky and lint-staged.*
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
