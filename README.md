@@ -49,7 +49,7 @@ Because of the limiting nature of a non-ejected create-react-app project you are
 
 ## Template Development
 
-To test this template localally:
+To test this template locally:
 
 ```sh
 npx create-react-app my-app --template file:./path/to/folder/cra-template-typescript-extended
