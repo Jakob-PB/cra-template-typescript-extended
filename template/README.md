@@ -1,18 +1,19 @@
 ## Tools Added to the Template
 
-- [Prettier](https://prettier.io/)
-- [ESLint](https://eslint.org/)
-- [stylelint](https://stylelint.io/)
-- [commitlint](https://commitlint.js.org/#/)
-- [husky](https://github.com/typicode/husky)
-- [lint-staged](https://github.com/okonet/lint-staged)
+- [Prettier](https://prettier.io/) - Automatically format project files (html, css, scss, sass, js, jsx, ts, tsx, json, md)
+- [ESLint](https://eslint.org/) - Lint TypeScript and JavaScript code
+- [stylelint](https://stylelint.io/) - Lint CSS and its extension languages
+- [commitlint](https://commitlint.js.org/#/) - Lint commits to fit the Conventional Commit standard
+- [standard-version](https://github.com/conventional-changelog/standard-version) - Provides the `npm run release` command for automatic release and changelog generation
+- [husky](https://github.com/typicode/husky) - Provides easy Git Hooks configuration for automatic linting, testing, and formatting before each commit
+- [lint-staged](https://github.com/okonet/lint-staged) - Extends husky's functionality to run commands on a subset of staged files
 
 ### Git Hooks
 
+Note: You must set the Git Hooks up manually. See "Setting Up Git Hooks" above.
+
 - **Pre-Commit**: Uses Prettier for formatting, `tsc --noEmit`, ESLint, and stylelint for linting, and runs tests via `npm run test`.
 - **Commit-Msg**: Runs commitlint on the commit message.
-
-*These git hooks are implemented via husky and lint-staged.*
 
 ### Commit Type Overview
 
@@ -68,8 +69,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `npm run release`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Automatically bumps the npm package version, creates a commit, and generates a changelog based on commit history since the last version.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For more information see the [standard-version](https://github.com/conventional-changelog/standard-version) documentation.

@@ -1,8 +1,8 @@
 # cra-template-typescript-extended
 
-A modified (but not ejected) version of creat-react-app's TypeScript template. Adds helpful development tools like ESLint, Prettier, and commitlint as well as some personal linting rule changes.
+A modified (but not ejected) version of create-react-app's TypeScript template. Adds helpful development tools like ESLint, Prettier, and commitlint as well as some personal linting rule changes.
 
-### Creating a New Project
+## Creating a New Project
 
 To use this template, add `--template typescript-extended` when creating a new app via create-react-app.
 
@@ -36,12 +36,13 @@ You will need to manually add your husky hooks settings to `package.json` as see
 
 ## Tools Added to the TypeScript Template
 
-- [Prettier](https://prettier.io/)
-- [ESLint](https://eslint.org/)
-- [stylelint](https://stylelint.io/)
-- [commitlint](https://commitlint.js.org/#/)
-- [husky](https://github.com/typicode/husky)
-- [lint-staged](https://github.com/okonet/lint-staged)
+- [Prettier](https://prettier.io/) - Automatically format project files (html, css, scss, sass, js, jsx, ts, tsx, json, md)
+- [ESLint](https://eslint.org/) - Lint TypeScript and JavaScript code
+- [stylelint](https://stylelint.io/) - Lint CSS and its extension languages
+- [commitlint](https://commitlint.js.org/#/) - Lint commits to fit the Conventional Commit standard
+- [standard-version](https://github.com/conventional-changelog/standard-version) - Provides the `npm run release` command for automatic release and changelog generation
+- [husky](https://github.com/typicode/husky) - Provides easy Git Hooks configuration for automatic linting, testing, and formatting before each commit
+- [lint-staged](https://github.com/okonet/lint-staged) - Extends husky's functionality to run commands on a subset of staged files
 
 ### Git Hooks
 
@@ -50,12 +51,10 @@ Note: You must set the Git Hooks up manually. See "Setting Up Git Hooks" above.
 - **Pre-Commit**: Uses Prettier for formatting, `tsc --noEmit`, ESLint, and stylelint for linting, and runs tests via `npm run test`.
 - **Commit-Msg**: Runs commitlint on the commit message.
 
----
-
 ## Template Development
 
-To test this template locally:
+To test this template locally (assuming this command is being run from inside the directory that contains this template):
 
 ```sh
-npx create-react-app my-app --template file:./path/to/folder/cra-template-typescript-extended
+npx create-react-app my-app --template file:./cra-template-typescript-extended
 ```
