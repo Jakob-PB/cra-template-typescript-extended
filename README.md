@@ -1,5 +1,8 @@
 # cra-template-typescript-extended
 
+[![NPM version](https://img.shields.io/npm/v/cra-template-typescript-extended)](https://www.npmjs.com/package/cra-template-typescript-extended)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org)
+
 A modified (but not ejected) version of create-react-app's TypeScript template. Adds helpful development tools like ESLint, Prettier, and commitlint as well as some personal linting rule changes.
 
 ## Creating a New Project
