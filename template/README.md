@@ -1,4 +1,4 @@
-## Tools Added to the Template
+## Tools Used
 
 - [Prettier](https://prettier.io/) - Automatically format project files (html, css, scss, sass, js, jsx, ts, tsx, json, md)
 - [ESLint](https://eslint.org/) - Lint TypeScript and JavaScript code
