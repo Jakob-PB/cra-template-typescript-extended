@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.2.1](https://github.com/Jakob-PB/cra-template-typescript-extended/compare/v1.2.0...v1.2.1) (2020-06-12)
+
 # [1.2.0](https://github.com/Jakob-PB/cra-template-typescript-extended/compare/v1.1.2...v1.2.0) (2020-06-12)
 
 
@@ -27,6 +33,3 @@
 ### Features
 
 * Transform project into CRA custom template ([b1ad045](https://github.com/Jakob-PB/cra-template-typescript-extended/commit/b1ad04529b27f3b4c91d8a8b9e4b1ee3f603613d))
-
-
-
