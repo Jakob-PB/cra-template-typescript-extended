@@ -15,7 +15,8 @@
 //     source: /node_modules/eslint-plugin-react/index.js
 
 module.exports = {
-  extends: ["react-app", "eslint:recommended", "plugin:react/recommended"],
+  // "react-app" need to be last or the config will be overridden
+  extends: ["eslint:recommended", "plugin:react/recommended", "react-app"],
   rules: {
     "max-len": "off", // Prettier is handling line length, no need for warnings
     "no-else-return": "off", // Favor clarity over slightly less typing
