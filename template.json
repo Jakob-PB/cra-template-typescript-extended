@@ -19,7 +19,8 @@
       "lint-staged": "^10.2.6",
       "prettier": "2.0.5",
       "stylelint": "^13.5.0",
-      "stylelint-config-standard": "^20.0.0"
+      "stylelint-config-standard": "^20.0.0",
+      "node-sass": "^4.14.1"
     },
     "scripts": {
       "release": "standard-version"
