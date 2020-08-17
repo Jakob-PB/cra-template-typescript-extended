@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Jakob-PB/cra-template-typescript-extended/compare/v1.2.1...v1.3.0) (2020-08-17)
+
+
+### Features
+
+* **deps:** Added Sass ([f2aa25e](https://github.com/Jakob-PB/cra-template-typescript-extended/commit/f2aa25ec41e7777b49e1b4f658f5f60a555a9327))
+
+
+### Bug Fixes
+
+* **deps:** Update packages to remove vulnerabilities ([45bdc9d](https://github.com/Jakob-PB/cra-template-typescript-extended/commit/45bdc9d68dee37f9e1a0ebf030a47f1cb1c86c79))
+* **eslint:** Stop the "react-app" eslint config from being overriden ([2e8bb1a](https://github.com/Jakob-PB/cra-template-typescript-extended/commit/2e8bb1ac99b79760fed7dd8641eb8c11c15a5d99))
+
 ### [1.2.1](https://github.com/Jakob-PB/cra-template-typescript-extended/compare/v1.2.0...v1.2.1) (2020-06-12)
 
 # [1.2.0](https://github.com/Jakob-PB/cra-template-typescript-extended/compare/v1.1.2...v1.2.0) (2020-06-12)
