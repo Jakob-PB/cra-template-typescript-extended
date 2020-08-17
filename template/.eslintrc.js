@@ -21,10 +21,9 @@ module.exports = {
     "max-len": "off", // Prettier is handling line length, no need for warnings
     "no-else-return": "off", // Favor clarity over slightly less typing
     "no-plusplus": [
-      // Allow i++ in classic-style for loops
       "warn",
       {
-        allowForLoopAfterthoughts: true,
+        allowForLoopAfterthoughts: true, // Allow i++ in classic-style for loops
       },
     ],
     "operator-assignment": "off", // Forcing shorthand is too restricting on style

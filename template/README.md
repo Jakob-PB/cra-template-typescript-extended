@@ -1,5 +1,6 @@
 ## Tools Used
 
+- [Sass](https://sass-lang.com/) - A CSS preprocessor that acts as a superset of CSS.
 - [Prettier](https://prettier.io/) - Automatically format project files (html, css, scss, sass, js, jsx, ts, tsx, json, md)
 - [ESLint](https://eslint.org/) - Lint TypeScript and JavaScript code
 - [stylelint](https://stylelint.io/) - Lint CSS and its extension languages
