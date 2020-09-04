@@ -3,11 +3,11 @@
 [![NPM version](https://img.shields.io/npm/v/cra-template-typescript-extended)](https://www.npmjs.com/package/cra-template-typescript-extended)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org)
 
-This is a modified version of create-react-app's TypeScript template. Adds helpful development tools like Sass, ESLint, Prettier, and commitlint as well as some personal linting rule changes.
+This is a modified version of create-react-app's TypeScript template. It adds helpful development tools like Sass, ESLint, Prettier, and commitlint as well as some personal linting rule changes.
 
 ## Creating a New Project
 
-To use this template, add `--template typescript-extended` when creating a new app via create-react-app.
+To use this template, add `--template typescript-extended` to the end of your `create-react-app` command.
 
 ### NPM
 ```sh
